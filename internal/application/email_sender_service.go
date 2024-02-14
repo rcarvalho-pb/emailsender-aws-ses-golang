@@ -9,5 +9,5 @@ type EmailSenderUseCase struct {
 }
 
 func (es *EmailSenderUseCase) SendEmail(toEmail, subject, body string) {
-	es.EmailSenderGateway.SendEmailGateway(toEmail, subject, body)
+	es.EmailSenderGateway.SendEmail(toEmail, subject, body)
 }
